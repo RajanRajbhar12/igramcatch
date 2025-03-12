@@ -170,7 +170,7 @@ export default function InstagramDownloader() {
           <div className="flex flex-wrap gap-3">
             <Button 
               onClick={handleDownload}
-              className="flex-1 bg-secondary text-white py-3 px-6 rounded-md hover:bg-green-600 transition-colors flex items-center justify-center"
+              className="flex-1 bg-secondary text-blue-500 py-3 px-6 rounded-md hover:bg-white transition-colors flex items-center justify-center"
             >
               <Download className="mr-2 h-5 w-5" />
               <span>Download Now</span>

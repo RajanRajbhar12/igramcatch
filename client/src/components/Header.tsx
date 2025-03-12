@@ -6,7 +6,7 @@ export default function Header() {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex items-center space-x-2">
           <i className="fas fa-camera text-primary text-2xl"></i>
-          <span className="font-bold text-xl md:text-2xl text-dark">InstaSave</span>
+          <span className="font-bold text-xl md:text-2xl text-dark">SnapLoad</span>
         </div>
         <nav>
           <ul className="flex space-x-6">
@@ -20,11 +20,7 @@ export default function Header() {
                 How It Works
               </a>
             </li>
-            <li>
-              <a href="#join-waitlist" className="bg-primary text-white px-4 py-2 rounded-md hover:bg-blue-600 transition-colors">
-                Join Waitlist
-              </a>
-            </li>
+          
           </ul>
         </nav>
       </div>
